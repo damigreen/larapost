@@ -27,7 +27,7 @@
     <nav class="border-2 p-6 bg-white flex justify-between mb-6">
         <ul class="flex items-center">
             <li>
-                <a href="" class="p-3">Home</a>
+                <a href="/" class="p-3">Home</a>
             </li>
             <li>
                 <a href="" class="p-3">Dashboard</a>
@@ -45,7 +45,7 @@
                 <a href="" class="p-3">Login</a>
             </li>
             <li>
-                <a href="" class="p-3">Register</a>
+                <a href="{{ route('register') }}" class="p-3">Register</a>
             </li>
             <li>
                 <a href="" class="p-3">Logout</a>
