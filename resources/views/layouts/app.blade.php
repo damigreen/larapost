@@ -23,7 +23,7 @@
     </style>
 </head>
 
-<body class="bg-gray-3 00">
+<body class="bg-gray-200">
     <nav class="border-2 p-6 bg-white flex justify-between mb-6">
         <ul class="flex items-center">
             <li>
