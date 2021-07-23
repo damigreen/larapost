@@ -3,8 +3,8 @@
 @section('content')
 
   <div class="flex justify-center">
-    <div class="w-4/12 bg-white p-6 rounded-lg">
-      <form action="{{ route('register') }}">
+    <div class="w-6/12 bg-white p-6 rounded-lg">
+      <form action="{{ route('register') }}" method='post'> 
         @csrf
         <div class="mb-4">
           <label for="name" class="sr-only">Name</label>
@@ -12,7 +12,7 @@
         </div>
         @error('name')
           <div class='text-red-500 mt-2 text-sm'>
-            {{ message }}
+            {{ $message }}
           </div>
         @enderror
 
