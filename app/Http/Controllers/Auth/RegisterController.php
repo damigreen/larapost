@@ -14,9 +14,10 @@ class RegisterController extends Controller
 
     public function store(Request $request)
     {
-        // dd('abc');
+        // dd($request);
         // dd($request->get('email'));
         // dd($request->email);
+        
         // Validation
         $this->validate($request, [
             // 'name' => ['required', 'max' => 255],
@@ -27,6 +28,7 @@ class RegisterController extends Controller
         ]);
 
         dd('store');
+
 
         // store user
         // sign user in
